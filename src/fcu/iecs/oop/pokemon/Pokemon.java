@@ -1,6 +1,6 @@
 package fcu.iecs.oop.pokemon;
 
-public class Pokemon {
+public class Pokemon implements Fightable{
 
 	private String nickName;
 	private PokemonType type;
@@ -31,6 +31,12 @@ public class Pokemon {
 
 	public PokemonType getType() {
 		return type;
+	}
+
+	@Override
+	public void attack() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
